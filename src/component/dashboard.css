@@ -1,0 +1,18 @@
+.tab-style {
+    display: flex; /* Make the row display as a flexbox for easier styling */
+    flex-wrap: wrap; /* Allow columns to wrap onto multiple lines if needed */
+  }
+  
+  .tab-style  .col { /* Target all child elements of the row with class "col" */
+    margin: 10px; /* Add margin for spacing between boxes */
+    padding: 15px; /* Add padding for content within boxes */
+    border: 1px solid #000000; /* Add a light gray border */
+    border-radius: 5px; /* Add rounded corners to the boxes */
+    background-color: #793b3b; /* Set a light background color */
+    text-align: center; /* Center text within boxes */
+  }
+  
+  .tab-style > .col h1,
+  .tab-style > .col h2 { /* Style headings within boxes */
+    margin: 5px 0; /* Add some space above and below headings */
+  }
